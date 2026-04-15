@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps Engineer Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+header {
+    background: #020617;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e2e8f0;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.section {
+    padding: 60px 50px;
+}
+
+.section h2 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #020617;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #020617;
+}
+
+.skills span {
+    display: inline-block;
+    background: #1e293b;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>DevOps Engineer</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Hello, I'm Kunjal</h2>
+    <p>
+        DevOps Engineer with 2.5 years of experience at Tata Elxsi.
+        Skilled in CI/CD, containerization, and automation. Passionate about building
+        scalable and efficient infrastructure.
+    </p>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a DevOps Engineer with strong foundation in Linux, Docker, and CI/CD pipelines.
+        I have worked on automation, deployment strategies, and system design concepts.
+        I also have exposure to automotive domain systems like V2I and embedded systems.
+    </p>
+</section>
+
+<section id="experience" class="section">
+    <h2>Experience</h2>
+
+    <div class="card">
+        <h3>Tata Elxsi — DevOps Engineer</h3>
+        <p><strong>Experience:</strong> 2.5 Years</p>
+        <p>
+            Worked on CI/CD pipelines, Docker-based deployments, and system automation.
+            Experience with GitHub Actions, container orchestration basics, and environment setup.
+        </p>
+    </div>
+
+</section>
+
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span>Docker</span>
+        <span>GitHub Actions</span>
+        <span>Linux</span>
+        <span>Git</span>
+        <span>MySQL</span>
+        <span>CI/CD</span>
+        <span>Shell Scripting</span>
+        <span>Kubernetes (Basics)</span>
+    </div>
+
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Multi-Tier Bank Application Deployment</h3>
+        <p>
+            Built and deployed a multi-tier application using Docker and MySQL.
+            Configured environment variables and container networking.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>CI/CD Pipeline using GitHub Actions</h3>
+        <p>
+            Automated build and deployment process using GitHub Actions including
+            artifact upload and workflow automation.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>V2I Communication System (POC)</h3>
+        <p>
+            Designed system-level architecture for Vehicle-to-Infrastructure communication
+            including OBU, RSE, and central control system.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Kunjal | DevOps Engineer</p>
+</footer>
+
+</body>
+</html>
